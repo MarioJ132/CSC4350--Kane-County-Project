@@ -1,8 +1,9 @@
 class Car:
+    # Developed by Rafael 9/23
     def __init__(myCar, speed, started):
         myCar.speed = speed
         myCar.started = started
-
+    # Developed by Rafael 9/23
     def myfunc(myCar):
         print("Hello your car is this fast " + myCar.speed)
 
