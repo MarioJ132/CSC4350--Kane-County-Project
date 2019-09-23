@@ -1,0 +1,2 @@
+car1 = Car("10", True)
+print(car1.is_started())
