@@ -13,6 +13,5 @@ class Car:
     def is_started(myCar):
         return myCar.started
 
-
 # p1 = Car("10", True)
 # print(p1.is_started())
