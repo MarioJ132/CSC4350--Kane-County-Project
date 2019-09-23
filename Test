@@ -1,3 +1,11 @@
-print("Hello, World!")
-print("I'm committing this file.")
-print("That worked out well.")
+class Car:
+    def __init__(myCar, speed, started):
+        myCar.speed = speed
+        myCar.started = started
+
+    def myfunc(myCar):
+        print("Hello your car is this fast " + myCar.speed)
+
+
+p1 = Car("10", 0)
+p1.myfunc()
