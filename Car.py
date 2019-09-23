@@ -1,3 +1,17 @@
-print("it works")
-print("it's not working")
-print("still works")
+class Car:
+    # Developed by Rafael 9/23
+    def __init__(myCar, speed, started):
+        myCar.speed = speed
+        myCar.started = started
+
+    # Developed by Rafael 9/23
+    def start(myCar):
+        myCar.started = True
+        myCar.speed = 0
+
+    # Developed by Mario & Rafael 9/23
+    def is_started(myCar):
+        return myCar.started
+    #Developed by Mario 9/23
+    def accelerate(myCar):
+        myCar._speed+=5
