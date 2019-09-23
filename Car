@@ -1,0 +1,18 @@
+class Car:
+    # Developed by Rafael 9/23
+    def __init__(myCar, speed, started):
+        myCar.speed = speed
+        myCar.started = started
+
+    # Developed by Rafael 9/23
+    def start(myCar):
+        myCar.started = True
+        myCar.speed = 0
+
+    # Developed by Mario & Rafael 9/23
+    def is_started(myCar):
+        return myCar.started
+
+
+# p1 = Car("10", True)
+# print(p1.is_started())
