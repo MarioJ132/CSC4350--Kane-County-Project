@@ -20,3 +20,6 @@ class Car:
     #Developed by Fletcher on 9/23
         def is_break(myCar):
         return myCar.break
+
+        def break(myCar):
+        myCar._speed-=0
