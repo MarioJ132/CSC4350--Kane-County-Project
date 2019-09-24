@@ -13,10 +13,10 @@ class Car:
     def is_started(myCar):
         return myCar.started
 
-    # Developed by Mario & Rafael 9/23
-    def is_started(myCar):
-        return myCar.started
-
     #Developed by Mario 9/23
     def accelerate(myCar):
         myCar._speed+=5
+
+    #Developed by Fletcher on 9/23
+        def is_break(myCar):
+        return myCar.break

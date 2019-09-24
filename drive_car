@@ -19,3 +19,19 @@ if(mycar._started == 'True'):
 
 car1 = Car("10", True)
 print(car1.is_started())
+
+#Develped by Fletcher on 9/23
+if(mycar._started == 'True'):
+    mycar.break()
+    print('The current speed is: ', mycar.get_speed)
+    mycar.break()
+    print('The current speed is: ', mycar.get_speed)
+    mycar.break()
+    print('The current speed is: ', mycar.get_speed)
+    mycar.break()
+    print('The current speed is: ', mycar.get_speed)
+    mycar.break()
+    print('The current speed is: ', mycar.get_speed)
+
+car1 = Car("10", True)
+print(car1.is_started())
