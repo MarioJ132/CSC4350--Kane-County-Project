@@ -13,7 +13,10 @@ class Car:
     def is_started(myCar):
         return myCar.started
 
-# p1 = Car("10", True)
-# print(p1.is_started())
-#Fletcher changes
-#Mario Changes
+    # Developed by Mario & Rafael 9/23
+    def is_started(myCar):
+        return myCar.started
+
+    #Developed by Mario 9/23
+    def accelerate(myCar):
+        myCar._speed+=5
