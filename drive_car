@@ -32,6 +32,3 @@ if(mycar._started == 'True'):
     print('The current speed is: ', mycar.get_speed)
     mycar.break()
     print('The current speed is: ', mycar.get_speed)
-
-car1 = Car("10", True)
-print(car1.is_started())
